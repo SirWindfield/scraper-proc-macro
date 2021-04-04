@@ -1,0 +1,13 @@
+[package]
+name = "scraper-proc-macro"
+version = "0.1.0"
+authors = ["SirWindfield <SirWindfield@users.noreply.github.com>"]
+edition = "2018"
+
+[lib]
+proc-macro = true
+
+[dependencies]
+absolution = "0.1.1"
+quote = "1.0.9"
+scraper = "0.12.0"
